@@ -1,6 +1,6 @@
 # processing-grecian-computer-solver
 
-A program I wrote to help me solve the Greek Computer Puzzle by Project Genius.
+A program I wrote to help me solve the Grecian Computer Puzzle by Project Genius.
 
 More information about the puzzle here:
 https://www.projectgeniusinc.com/grecian-computer-solution
