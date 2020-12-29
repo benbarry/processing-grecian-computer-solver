@@ -7,4 +7,4 @@ https://www.projectgeniusinc.com/grecian-computer-solution
 
 ## Diagram
 Here is a diagram explaining how variables are labeled and numbered in the program relative to the physical puzzle.
-<img src="https://github.com/benbarry/processing-greek-computer-solver/blob/master/diagram.png" width="100%">
+<img src="https://github.com/benbarry/processing-greek-computer-solver/blob/main/diagram.pngng" width="100%">
