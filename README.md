@@ -1,4 +1,4 @@
-# processing-greek-computer-solver
+# processing-grecian-computer-solver
 
 A program I wrote to help me solve the Greek Computer Puzzle by Project Genius.
 
