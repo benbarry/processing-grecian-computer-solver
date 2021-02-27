@@ -40,7 +40,7 @@ void setup() {
   rings_[1] = new int[]{ 12, 3, 6, 0, 14, 12, 3, 8, 9, 0, 9, 20 };
   rings_[2] = new int[]{ 6, 0, 2, 13, 9, 0, 17, 19, 3, 12, 3, 26 };
   rings_[3] = new int[]{ 9, 0, 12, 0, 6, 0, 10, 0, 10, 0, 1, 0 };
-  rotation_ = 0;
+  rotation_ = 5;
   ringColor_ = color(49, 129, 0);
   levels.add(new Level(rings_, rotation_, ringColor_));
   
@@ -50,7 +50,7 @@ void setup() {
   rings_[1] = new int[]{ 12, 0, 21, 6, 15, 4, 9, 18, 11, 26, 14, 1 };
   rings_[2] = new int[]{ 9, 0, 5, 0, 10, 0, 8, 0, 22, 0, 16, 0 };
   rings_[3] = new int[]{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-  rotation_ = 0;
+  rotation_ = 7;
   ringColor_ = color(255, 96, 40);
   levels.add(new Level(rings_, rotation_, ringColor_));
   
@@ -60,7 +60,7 @@ void setup() {
   rings_[1] = new int[]{ 12, 0, 4, 0, 7, 15, 0, 0, 14, 0, 9, 0 };
   rings_[2] = new int[]{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   rings_[3] = new int[]{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-  rotation_ = 0;
+  rotation_ = 1;
   ringColor_ = color(54, 167, 255);
   levels.add(new Level(rings_, rotation_, ringColor_));
   
@@ -167,6 +167,11 @@ void draw() {
     sum[11] == 42
   ) {
     println("Solved!");
+    println("Level 4 Rotation: " + levels.get(4).rotation);
+    println("Level 3 Rotation: " + levels.get(3).rotation);
+    println("Level 2 Rotation: " + levels.get(2).rotation);
+    println("Level 1 Rotation: " + levels.get(1).rotation);
+    println("Level 0 Rotation: " + levels.get(0).rotation);
     noLoop();
   } else {
     // Keep Track of Iterations
