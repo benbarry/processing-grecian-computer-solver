@@ -3,7 +3,7 @@
 A program I wrote to help me solve the Grecian Computer Puzzle by Project Genius.
 
 More information about the puzzle here:
-https://www.projectgeniusinc.com/grecian-computer-solution
+https://projectgeniusinc.com/grecian-computer/
 
 The program is written in Processing:
 https://processing.org/
